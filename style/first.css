@@ -1,0 +1,27 @@
+body{
+    background-image: url(/images/8.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 73px; 
+    width: 180px; 
+    left: 20pt;
+    top: 30pt; 
+    position:center; 		/*En función a los atributos height y width*/
+    border: 3px solid #09F;
+    font-size:35px;	  
+    text-align:center;	
+    line-height:37px;/*Tamaño del elemento li en vertical, es decir, su altura.*/	
+    border-style:groove;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(214, 38, 38);
+}

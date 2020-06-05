@@ -1,0 +1,36 @@
+body{
+    background-image: url(../images/29.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+}
+li{							/*selectores de etiqueta*/
+    height: 30px; 
+    width: 180px; 
+    left: 10pt;
+    top: 30pt; 
+    position:relative; 		/*En función a los atributos height y width*/
+    visibility:visible;
+    font-family:initial;
+    border: 3px solid #09F;
+	text-align:center;	
+    border-style:groove;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: white;
+
+}
+a{
+	color:rgb(40, 67, 218);
+    text-decoration:transparent;
+    font-size: 30px;
+}
+a:hover{
+    font-weight:bold;
+    color: rgb(200, 200, 200);
+    box-decoration-break: slice;
+}
+ul{
+    padding-left:4px;	/*Espacio insertado, por la izquierda, entre el borde del elemento continente(capa) y el contenido de este(ul) li's*/
+}
